@@ -23,3 +23,4 @@
 > * Using Git LFS (Large File Support)
 
 > * Marketing & Markdown
+> * Use git clean to Revert Project
