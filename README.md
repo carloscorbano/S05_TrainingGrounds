@@ -26,3 +26,5 @@
 > * Use git clean to Revert Project
 
 > * First Person Character Overview
+> * The Third Person Character
+
