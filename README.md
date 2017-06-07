@@ -1,0 +1,22 @@
+﻿# Repositório do curso Unreal Engine Developer Course C++
+
+> Curso com finalidade de aprendizado sobre a linguagem de programação C++ no ambiente da Unreal Engine<br>
+
+> **Curso disponível no site da Udemy pelo link [Unreal Engine Developer Course C++ - Learn and make Games](https://www.udemy.com/unrealcourse)**
+
+
+
+## Aviso público
+
+> Esse curso confere sobre o desenvolvimento de jogos utilizando a linguagem de programação C++ no ambiente da Unreal Engine, todo e qualquer arquivo aqui contido é utilizado de recursos disponíveis pela engine. Salvo alguns arquivos de áudio dispostos para fins não comerciais devido a liberação para utilização não comercial do mesmo.<br>
+
+> O curso pode ser encontrado no link [Unreal Engine Developer Course C++ - Learn and make Games Udemy Course](https://www.udemy.com/unrealcourse)
+
+
+
+## Lista de aulas
+
+> **Atualizado de acordo com o andamento**
+
+> * Testing Grounds Introduction
+
