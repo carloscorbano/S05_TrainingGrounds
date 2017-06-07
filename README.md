@@ -20,4 +20,5 @@
 
 > * Testing Grounds Introduction
 > * Testing Grounds GDD
+> * Using Git LFS (Large File Support)
 
