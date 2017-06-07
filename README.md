@@ -22,3 +22,4 @@
 > * Testing Grounds GDD
 > * Using Git LFS (Large File Support)
 
+> * Marketing & Markdown
