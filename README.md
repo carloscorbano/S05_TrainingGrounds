@@ -42,3 +42,4 @@
 > * Introducing AI Perception
 > * OnTargetPerceptionUpdate Event
 > * AI Hearing Perception in Unreal
+> * The Animation Starter Pack
