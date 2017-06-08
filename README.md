@@ -19,6 +19,7 @@
 > * Testing Grounds GDD
 > * Using Git LFS (Large File Support)
 > * Marketing & Markdown
+
 > * Use git clean to Revert Project
 
 > * First Person Character Overview
@@ -32,4 +33,4 @@
 > * Modular Arithmetic & Cycles
 > * Performance Profiling 101
 > * C++ AI Behaviour Tree Tasks
-
+> * Reading Blackboard Data in C++
