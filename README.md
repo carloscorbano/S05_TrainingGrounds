@@ -37,3 +37,4 @@
 > * The Consequences of Inheritance
 > * Converting Blueprints to C++
 > * Composition over Inheritance
+> * How to delete a C++ class

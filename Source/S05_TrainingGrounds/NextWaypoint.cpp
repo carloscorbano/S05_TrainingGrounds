@@ -10,7 +10,16 @@ EBTNodeResult::Type UNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp
 
 	//Get Patrol Points
 	auto BlackboardComponent = OwnerComp.GetBlackboardComponent();
+	if (!ensure(BlackboardComponent)) { return EBTNodeResult::Failed; }
+
 	auto PatrolPoints = OwnerComp.GetAIOwner()->GetControlledPawn()->FindComponentByClass<UPatrolRoute>()->GetPatrolRoute();
+	
+	//Protect Against Empty Array
+	if (PatrolPoints.Num() == 0) 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("NPC Patrol without Patrol Points! NPC NAME = %s"), *OwnerComp.GetAIOwner()->GetControlledPawn()->GetName());
+		return EBTNodeResult::Failed; 
+	}
 
 	//Set the next waypoint
 	auto Index = BlackboardComponent->GetValueAsInt(IndexKey.SelectedKeyName);
