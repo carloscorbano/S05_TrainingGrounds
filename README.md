@@ -30,3 +30,5 @@
 
 > * Introducing AI Behaviour Trees
 > * Introducing AI Blackboard Data
+> * Target Points and Patrol Rules
+
