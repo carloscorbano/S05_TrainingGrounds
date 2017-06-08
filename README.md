@@ -38,3 +38,4 @@
 > * Converting Blueprints to C++
 > * Composition over Inheritance
 > * How to delete a C++ class
+> * Instanced Materials
