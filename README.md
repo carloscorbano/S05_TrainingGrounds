@@ -36,3 +36,4 @@
 > * Reading Blackboard Data in C++
 > * The Consequences of Inheritance
 > * Converting Blueprints to C++
+> * Composition over Inheritance
