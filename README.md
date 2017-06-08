@@ -31,3 +31,5 @@
 > * Blueprint Behaviour Tree Tasks
 > * Modular Arithmetic & Cycles
 > * Performance Profiling 101
+> * C++ AI Behaviour Tree Tasks
+
