@@ -13,8 +13,8 @@ UCLASS()
 class S05_TRAININGGROUNDS_API APatrolGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+protected:
+	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
+	TArray<AActor*> PatrolRouteCPP;	
 };
