@@ -41,3 +41,4 @@
 > * Instanced Materials
 > * Introducing AI Perception
 > * OnTargetPerceptionUpdate Event
+> * AI Hearing Perception in Unreal
