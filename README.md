@@ -18,9 +18,9 @@
 > * Testing Grounds Introduction
 > * Testing Grounds GDD
 > * Using Git LFS (Large File Support)
-> * Marketing & Markdown
-
 > * Use git clean to Revert Project
+
+> * Marketing & Markdown
 
 > * First Person Character Overview
 > * The Third Person Character
@@ -46,3 +46,4 @@
 > * Changing a Character's Animation
 > * Customising a Character Blueprint
 > * Sub Behaviour Trees
+> * Simplifying Our Project
