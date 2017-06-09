@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTTaskNode.h"
-#include "NextWaypoint.generated.h"
+#include "AIWaypointFinder.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class S05_TRAININGGROUNDS_API UNextWaypoint : public UBTTaskNode
+class S05_TRAININGGROUNDS_API UAIWaypointFinder : public UBTTaskNode
 {
 	GENERATED_BODY()
 	

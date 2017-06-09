@@ -1,18 +1,18 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "NextWaypoint.h"
+#include "AI/AIWaypointFinder.h"
 #include "AIController.h"
-#include "PatrolRoute.h"
+#include "AIRouteConfiguration.h"
 #include "BehaviorTree/BlackboardComponent.h"
 
-EBTNodeResult::Type UNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
+EBTNodeResult::Type UAIWaypointFinder::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
 
 	//Get Patrol Points
 	auto BlackboardComponent = OwnerComp.GetBlackboardComponent();
 	if (!ensure(BlackboardComponent)) { return EBTNodeResult::Failed; }
 
-	auto PatrolPoints = OwnerComp.GetAIOwner()->GetControlledPawn()->FindComponentByClass<UPatrolRoute>()->GetPatrolRoute();
+	auto PatrolPoints = OwnerComp.GetAIOwner()->GetControlledPawn()->FindComponentByClass<UAIRouteConfiguration>()->GetPatrolRoute();
 	
 	//Protect Against Empty Array
 	if (PatrolPoints.Num() == 0) 
@@ -23,8 +23,8 @@ EBTNodeResult::Type UNextWaypoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp
 
 	//Set the next waypoint
 	auto Index = BlackboardComponent->GetValueAsInt(IndexKey.SelectedKeyName);
-	auto NextWaypoint = PatrolPoints[Index];
-	BlackboardComponent->SetValueAsObject(WaypointKey.SelectedKeyName, NextWaypoint);
+	auto AIWaypointFinder = PatrolPoints[Index];
+	BlackboardComponent->SetValueAsObject(WaypointKey.SelectedKeyName, AIWaypointFinder);
 
 	//Cycle
 	auto NextIndex = (Index + 1)%PatrolPoints.Num();
