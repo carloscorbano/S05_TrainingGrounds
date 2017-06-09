@@ -49,3 +49,5 @@
 > * Simplifying Our Project
 > * Renaming & Moving CPP
 > * Solution: Renaming & moving CPP
+> * Holding Gun with Skeletal Sockets
+> * Understanding Animation Blueprints
