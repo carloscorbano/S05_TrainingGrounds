@@ -43,3 +43,4 @@
 > * Holding Gun with Skeletal Sockets
 > * Understanding Animation Blueprints
 > * Creating Animation State Machines
+> * Movement Blend Spaces
