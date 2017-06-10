@@ -44,3 +44,4 @@
 > * Understanding Animation Blueprints
 > * Creating Animation State Machines
 > * Movement Blend Spaces
+> * Offset Animations
