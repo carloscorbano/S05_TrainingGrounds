@@ -46,3 +46,4 @@
 > * Movement Blend Spaces
 > * Offset Animations
 > * Aiming Blend Spaces Offsets
+> * Rotating with SetFocalPoint()
