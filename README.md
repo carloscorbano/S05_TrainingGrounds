@@ -45,3 +45,4 @@
 > * Creating Animation State Machines
 > * Movement Blend Spaces
 > * Offset Animations
+> * Aiming Blend Spaces Offsets
