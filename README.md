@@ -47,3 +47,4 @@
 > * Offset Animations
 > * Aiming Blend Spaces Offsets
 > * Rotating with SetFocalPoint()
+> * Character Movement vs Rotation
