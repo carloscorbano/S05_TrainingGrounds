@@ -48,3 +48,4 @@
 > * Aiming Blend Spaces Offsets
 > * Rotating with SetFocalPoint()
 > * Character Movement vs Rotation
+> * Control Rotation for Aim
