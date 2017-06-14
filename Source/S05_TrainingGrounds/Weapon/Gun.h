@@ -10,7 +10,7 @@ UCLASS(ClassGroup = "Weapon", meta = (BlueprintSpawnable))
 class S05_TRAININGGROUNDS_API AGun : public AActor
 {
 	GENERATED_BODY()
-		
+
 	/** Gun mesh: 1st person view (seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class USkeletalMeshComponent* FP_Gun;
